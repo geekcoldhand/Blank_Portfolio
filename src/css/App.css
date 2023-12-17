@@ -1,8 +1,13 @@
 .App {
   text-align: center;
-  background-image: url("./images/space.gif");
-
+  background-image: url("../images/space.gif");
+  background-size: contain;
+  background-repeat: repeat;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .App-logo {
   height: 40vmin;
@@ -16,7 +21,6 @@
 }
 
 .App-header {
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;

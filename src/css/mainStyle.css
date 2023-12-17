@@ -1,0 +1,22 @@
+.main-container {
+  color: aliceblue;
+  width: 75%;
+  margin-inline: auto;
+  ;
+}
+
+.main-container-image {
+}
+
+.main-container-label {
+}
+
+.main-container-card {
+  padding-block: 2rem;
+  border: aliceblue;
+  border-width: 0.3rem;
+  border-style: inset;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-top: 5%
+}
