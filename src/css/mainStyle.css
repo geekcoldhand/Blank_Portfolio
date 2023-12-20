@@ -1,4 +1,5 @@
-.main-container {
+.gallery {
+ 
   color: aliceblue;
   width: 75%;
   margin-inline: auto;
@@ -6,17 +7,30 @@
 }
 
 .main-container-image {
+  padding-block: 2rem;
 }
 
 .main-container-label {
 }
 
 .main-container-card {
+  background-color: rgba(60, 60, 60, 0.627);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
   padding-block: 2rem;
-  border: aliceblue;
-  border-width: 0.3rem;
-  border-style: inset;
-  border-radius: 10px;
-  background-color: transparent;
-  margin-top: 5%
+  padding-inline: 33px;
+  border-radius: 19px;
+  margin-top: 5%;
+  border-top: .1px solid whitesmoke;
+  border-right: .1px solid whitesmoke;
+  box-shadow: 20px 20px 50px rgba(60, 60, 60, 0.25);
+  font-size: calc(10px + 2vmin);
+  
+}
+.hero-header{
+  margin-block: 3rem;
+}
+/* Actions */
+.grow:hover {
+  height: 20%;
 }
