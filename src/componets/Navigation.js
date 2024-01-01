@@ -73,7 +73,10 @@ export default function Navigation() {
             </ul>
           </menu>
         </nav>
+     
       </header>
+      
+<hr></hr>
     </div>
   );
 }
