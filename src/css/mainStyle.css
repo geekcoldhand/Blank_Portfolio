@@ -20,7 +20,7 @@
   -webkit-backdrop-filter: blur(9px);
 }
 .main-container-card {
-  padding-block: 2rem;
+
   padding-inline: 33px;
   border-radius: 19px;
   margin-top: 5%;
@@ -35,7 +35,12 @@
   position: relative;
 }
 .hero-header {
-  padding-top: 3rem;
+  padding-top: 1rem;
+  display: flex;
+}
+.hero-span{
+  color: black;
+  background: #004255;
 }
 .heading {
   font-size: calc(9vw);
@@ -49,13 +54,13 @@
 }
 .silhouette {
   position: absolute;
-  height: calc(70vh);
+  height: calc(75vh + 2rem);
   width: 100%;
 }
 .hero-box {
   border: 1px solid rgb(211, 211, 211);
   border-radius: 10px;
-  height: calc(70vh);
+  height: calc(75vh + 2rem);
 }
 
 .hero-top-text{
@@ -69,9 +74,11 @@ display: flex;
   width: calc(30vw);
 }
 .call-to-action{
-  padding-inline:calc(1vw);
+  padding-inline:calc(3vw);
+  margin-inline:calc(3vw);
   border: 1px solid whitesmoke;
-  border-radius: 20px;
+  border-radius: 20px; 
+
 }
 /* Actions */
 .grow:hover {
